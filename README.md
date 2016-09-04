@@ -1,7 +1,10 @@
-# Zhigly
 ![alt tag](http://i.imgur.com/VtRhu0z.png)
 
-**Zhigly** - Listings for College Communities
+**Zhigly** is a hub where you can connect with your college campus.
+
+**Zhigly** allows you to look for items you'd like to buy or sell, browse upcoming on-campus events, search for jobs/internships/opportunities, look for housing, and much more.
+
+**Zhigly** was written in C# using the ASP.NET framework provided by Microsoft.
 
 ## Requirements
  * Visual Studio 2010 Express or above.
@@ -15,8 +18,8 @@
  * Configure the API files found inside the API folder. This includes Facebook, Twitter, Google+, Imgur, Recaptcha and Zoho.
  * Configuration for Google Analytics can be found inside the JS/GoogleAnalytics.js file. 
  
- ## Note
- **Zhigly** will still run without any additional configuration, however you will be losing out on the added functionality that these third-party services provide. 
+## Note
+**Zhigly** will still run without any additional configuration, however you will be losing out on the added functionality that these third-party services provide. 
  
 ## Technologies Used
 
@@ -33,6 +36,8 @@
 
 **Zhigly** is live via hosting provided by GearHost. [Click here](http://zhigly.com/) to view.
 
+## Author
+* [Alan Morel](http://alanmorel.com/)
 
 ## License
 
