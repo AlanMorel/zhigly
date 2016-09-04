@@ -13,9 +13,10 @@
  * NuGet packages are included. If you have any problem please follow [these instructions](http://stackoverflow.com/questions/6876732/how-do-i-get-nuget-to-install-update-all-the-packages-in-the-packages-config).
  * Import the schema information via the database.sql file inside the SQL folder.
  * Configure the API files found inside the API folder. This includes Facebook, Twitter, Google+, Imgur, Recaptcha and Zoho.
- * Additional configuration needed for Google Analytics inside the JS/GoogleAnalytics.js file. 
+ * Configuration for Google Analytics can be found inside the JS/GoogleAnalytics.js file. 
  
- Note: Zhigly will still run without any additional configuration, however you will be losing out on the added functionality that these third-party services provide. 
+ ## Note
+ **Zhigly** will still run without any additional configuration, however you will be losing out on the added functionality that these third-party services provide. 
  
 ## Technologies Used
 
@@ -28,9 +29,9 @@
 * [Google Analytics](https://www.google.com/analytics/) - various website analytics tools
 * [Google Fonts](https://fonts.google.com/) - source of all the fonts
 
-## Live Demo
+## Live Demo at Zhigly.com
 
-Zhigly is live via hosting provided by GearHost. [Click here](http://zhigly.com/) to view.
+**Zhigly** is live via hosting provided by GearHost. [Click here](http://zhigly.com/) to view.
 
 
 ## License
