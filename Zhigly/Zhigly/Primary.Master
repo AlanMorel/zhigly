@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Primary.master.cs" Inherits="Zhigly.Primary" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta property="og:url" content="http://zhigly.com/" />
+    <meta property="og:title" content="Zhigly" />
+    <meta property="og:image" content="/Images/favicon.png" />
+    <meta property="og:site_name" content="Zhigly" />
+    <meta property="og:description" content="Zhigly is a hub where you can connect with your college campus." />
+   
+    <meta itemprop="name" content="Zhigly" />
+    <meta itemprop="description" content="Zhigly is a hub where you can connect with your college campus." />
+    <meta itemprop="image" content="/Images/favicon.png" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Zhigly" />
+    <meta name="twitter:description" content="Zhigly is a hub where you can connect with your college campus." />
+    <meta name="twitter:image" content="/Images/favicon.png" />
+
+    <meta name="description" content="Zhigly is a hub where you can connect with your college campus." />
+    <meta name="keywords" content="Zhigly, College, Listings, Ads, NYU, New York City" />
+    <link rel="canonical" href="https://zhigly.com/" />
+
+    <link rel="stylesheet" type="text/css" href="/Styles/PrimaryStyle.css" />
+    <link rel="shortcut icon" href="/Images/favicon.png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/JS/GoogleAnalytics.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <div class="header" id="ZhiglyBanner" runat="server">
+            <asp:HyperLink ID="HomeHyperLink" runat="server" NavigateUrl="~/" ImageUrl="~/Images/Logo/header_logo.png" CssClass="logo"></asp:HyperLink>
+            <div class="menuTop">
+                <span runat="server" id="NamePrompt"></span>
+            </div>
+            <div class="menuBottom">
+                <span runat="server" id="LoggedOutHeader">
+                    <asp:HyperLink runat="server" NavigateUrl="~/Schools.aspx">Browse Schools</asp:HyperLink>
+                    |
+                    <asp:HyperLink runat="server" NavigateUrl="~/About.aspx">What is Zhigly?</asp:HyperLink>
+                    |
+                    <asp:HyperLink runat="server" NavigateUrl="~/Login.aspx">Log In</asp:HyperLink>
+                </span>
+                <span runat="server" id="LoggedInHeader">
+                    <asp:LinkButton runat="server" ID="Browse">Browse</asp:LinkButton>
+                    |
+                    <asp:HyperLink runat="server" NavigateUrl="~/Post.aspx">Post a Listing</asp:HyperLink>
+                    |
+                    <asp:HyperLink runat="server" NavigateUrl="~/Settings.aspx">Settings</asp:HyperLink>
+                    |
+                    <asp:LinkButton runat="server" OnClick="LogOutButton_Click">Log Out</asp:LinkButton>
+                </span>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <span class="footer-title">Zhigly</span>
+                    <asp:HyperLink runat="server" NavigateUrl="~/About.aspx">About</asp:HyperLink>
+                    <asp:HyperLink runat="server" NavigateUrl="~/School.aspx">Schools</asp:HyperLink>
+                    <asp:HyperLink runat="server" NavigateUrl="~/Blog.aspx">Blog</asp:HyperLink>
+                </div>
+                <div class="footer-column">
+                    <span class="footer-title">Team</span>
+                    <asp:HyperLink runat="server" NavigateUrl="~/Privacy.aspx">Privacy Policy</asp:HyperLink>
+                    <asp:HyperLink runat="server" NavigateUrl="~/Contact.aspx">Contact</asp:HyperLink>
+                    <asp:HyperLink runat="server" NavigateUrl="~/Credits.aspx">Credits</asp:HyperLink>
+                </div>
+                <div class="footer-column">
+                    <span class="footer-title">Follow us!</span>
+                    <asp:HyperLink runat="server" Target="_new" NavigateUrl="http://facebook.com/zhigly">Facebook <span id="FacebookLikes" runat="server"></span></asp:HyperLink>
+                    <asp:HyperLink runat="server" Target="_new" NavigateUrl="http://twitter.com/zhigly">Twitter <span id="TwitterFollowers" runat="server"></span></asp:HyperLink>
+                    <asp:HyperLink runat="server" Target="_new" NavigateUrl="https://plus.google.com/u/0/113590686498071198241">Google+ <span id="PlusFollowers" runat="server"></span></asp:HyperLink>
+                </div>
+                <div class="footer-column made-in-ny">
+                    Made with &hearts; in New York
+                    <asp:HyperLink runat="server" Target="_new" NavigateUrl="http://wearemadeinny.com/" ImageUrl="~/Images/Logo/madeinny.png" CssClass="made-in-ny"></asp:HyperLink>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <span class="sub-footer-text">Copyright © 2015 - 2016 Zhigly. All rights reserved.</span>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

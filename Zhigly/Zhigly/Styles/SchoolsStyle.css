@@ -1,0 +1,73 @@
+﻿.container{
+    padding: 0 16px 4px 16px;
+    margin-top: 20px;
+    padding-bottom:25px
+}
+
+a{
+    color:#c60b1e;
+}
+
+.school-container {
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.school-logo-container {
+    max-width: 200px;
+    float: left;
+    padding-top: 4px;
+}
+
+.content {
+    display: inline-block;
+    width: 650px;
+    padding-left: 15px;
+}
+
+.school-logo {
+    max-width: 125px;
+    border-radius: 10px;
+    float: left;
+}
+
+.description {
+    font-size: 13px;
+}
+
+.title {
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.stats-stat {
+    display: inline-block;
+    width: 100px;
+}
+
+.stats-header {
+    width: 100px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.stats {
+    padding-top: 12px;
+    text-align: center;
+    display: inline-block;
+}
+
+.stats-stats {
+    display: inline-block;
+    padding-bottom: 4px;
+    font-size: 22px;
+}

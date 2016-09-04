@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Secondary.master.cs" Inherits="Zhigly.Secondary" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta property="og:url" content="http://zhigly.com/" />
+    <meta property="og:title" content="Zhigly" />
+    <meta property="og:image" content="/Images/favicon.png" />
+    <meta property="og:site_name" content="Zhigly" />
+    <meta property="og:description" content="Zhigly is a hub where you can connect with your college campus." />
+
+    <meta itemprop="name" content="Zhigly" />
+    <meta itemprop="description" content="Zhigly is a hub where you can connect with your college campus." />
+    <meta itemprop="image" content="/Images/favicon.png" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Zhigly" />
+    <meta name="twitter:description" content="Zhigly is a hub where you can connect with your college campus." />
+    <meta name="twitter:image" content="/Images/favicon.png" />
+
+    <meta name="description" content="Zhigly is a hub where you can connect with your college campus." />
+    <meta name="keywords" content="Zhigly, College, Listings, Ads, NYU, New York City" />
+    <link rel="canonical" href="http://zhigly.com/" />
+
+    <link rel="stylesheet" type="text/css" href="/Styles/SecondaryStyle.css" />
+    <link rel="shortcut icon" href="/Images/favicon.png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/JS/GoogleAnalytics.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <div>
+            <div class="container">
+                <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+    <footer>
+        <asp:ContentPlaceHolder ID="footer" runat="server"></asp:ContentPlaceHolder>
+    </footer>
+</body>
+</html>

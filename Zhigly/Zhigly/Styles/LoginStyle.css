@@ -1,0 +1,47 @@
+﻿.container {
+    width: 500px;
+    padding: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.remember-me {
+    font-size: 16px;
+    margin-left: 149px;
+}
+
+div {
+    padding: 10px;
+}
+
+label {
+    width: 30%;
+}
+
+.button {
+    width: 235px;
+    margin-left: 154px;
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type="password"], input[type="email"] {
+    width: 225px;
+}
+
+.error-label {
+    margin-bottom: 30px;
+}
+
+.header {
+    background-image: url("../Images/Secondary/login_background.png");
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    margin-bottom: 40px;
+    background-position: center center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.logo img {
+    max-width: 250px;
+}

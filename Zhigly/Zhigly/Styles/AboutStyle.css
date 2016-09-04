@@ -1,0 +1,31 @@
+﻿.container {
+    background-color: #ffffff;
+    padding: 0 16px 4px 16px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 26px;
+}
+
+p {
+    line-height: 170%;
+    letter-spacing: 0.25px;
+}
+
+.team {
+    margin-top: 0;
+    font-weight: bold;
+    font-family: Raleway;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.love {
+    margin-bottom: 0;
+    font-style: italic;
+}

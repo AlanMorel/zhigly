@@ -1,0 +1,245 @@
+﻿.container {
+    width: 600px;
+    padding: 0 16px 16px 16px;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input[type=text], input[type="password"] {
+    font-size: 18px;
+    height: 20px;
+    padding: 4px;
+    width: 590px;
+    letter-spacing: 0.5px;
+}
+
+input[type="file"] {
+    width: 100%;
+}
+
+input[type="file"], input[type="submit"] {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+select {
+    font-size: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 8em;
+    box-shadow: none;
+    border: 1px solid #cccccc;
+    padding: 2px;
+    font-size: 16px;
+    width: 590px;
+}
+
+.button {
+    width: 175px;
+    float: right;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.post-div {
+    overflow: auto;
+    margin-top: 25px;
+}
+
+.prompt-div {
+    overflow: auto;
+    border-radius: 12px;
+    margin-top: 24px;
+    background-color: #c0392b;
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url("../Images/deletion_alert.png");
+    background-repeat: no-repeat;
+    background-position-x: 22px;
+    background-position-y: 26px;
+    padding-left: 30px;
+    padding: 15px;
+}
+
+.prompt-button {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #aaa;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+    background: #FFFFFF;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    font-weight: lighter;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    width: 50px;
+}
+
+    .prompt-button:hover {
+        background: #DDDDDD;
+        cursor: pointer;
+        color: #000000;
+    }
+
+.add {
+    border: 1px solid #3498db;
+    color: #3498db;
+}
+
+    .add:hover {
+        background: #3498db;
+    }
+
+
+.delete {
+    border: 1px solid #c0392b;
+    color: #c0392b;
+}
+
+    .delete:hover {
+        background: #c0392b;
+    }
+
+.save {
+    border: 1px solid #27ae60;
+    color: #27ae60;
+}
+
+    .save:hover {
+        background: #27ae60;
+    }
+
+.image-section {
+    border-color: #ddd;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.ad-image {
+    max-width: 50%;
+    height: auto;
+}
+
+table {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.light-box {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+
+    .light-box img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 5%;
+    }
+
+    .light-box:target {
+        display: block;
+        outline: none;
+    }
+
+.ad-thumbnail {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.option-container {
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    padding-top: 8px;
+    padding-left: 16px;
+    width: 575px;
+    margin-top: 12px;
+}
+
+.visible {
+    background-color: #eeeeee;
+    color: #000000;
+    border: 1px solid #dddddd;
+}
+
+.invisible {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: 1px solid black;
+}
+
+.black, .white, .enabled-star, .disabled-star {
+    background-repeat: no-repeat;
+    border: none;
+    padding-left: 32px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: right;
+}
+
+.black {
+    background-image: url("../Images/Credits/black_spy.png");
+}
+
+.white {
+    background-image: url("../Images/Credits/white_spy.png");
+}
+
+.option-text {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    width: 510px;
+    padding-top: 4px;
+}
+
+.expiration-text {
+    background-image: url("/Images/clock.png");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-top: 4px;
+    height: 35px;
+    margin-top: 12px;
+}
+
+.disabled {
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+}
+
+.enabled {
+    background-color: cornflowerblue;
+    color: #ffffff;
+    border: 1px solid #5270CE;
+}
+
+.enabled-star {
+    background-image: url("../Images/Credits/enabledstarlogo.png");
+}
+
+.disabled-star {
+    background-image: url("../Images/Credits/disabledstarlogo.png");
+}

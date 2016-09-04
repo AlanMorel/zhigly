@@ -1,0 +1,42 @@
+﻿p {
+    clear: both;
+    margin: 0;
+}
+
+pre {
+    display: block;
+    font: 100% "Courier New", Courier, monospace;
+    padding: 10px;
+    border: 1px solid #bae2f0;
+    background: #e3f4f9;
+    margin: .5em 0;
+    overflow: auto;
+    width: 800px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+#preview {
+    position: absolute;
+    border: 1px solid #ccc;
+    background: #333;
+    padding: 5px;
+    display: none;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.preview-image {
+    max-height: 200px;
+    max-width: 200px;
+}

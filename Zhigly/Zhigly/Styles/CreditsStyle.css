@@ -1,0 +1,98 @@
+﻿.container {
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+h1, h2, p, hr {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 26px;
+}
+
+p {
+    line-height: 175%;
+}
+
+.credit-banner1, .credit-banner2, .credit-banner3, .credit-banner4 {
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+}
+
+.credit-banner1 {
+    background-image: url("../Images/Credits/credit_banner_1.png");
+}
+
+.credit-banner2 {
+    background-image: url("../Images/Credits/credit_banner_2.png");
+}
+
+.credit-banner3 {
+    background-image: url("../Images/Credits/credit_banner_3.png");
+}
+
+.credit-banner4 {
+    background-image: url("../Images/Credits/credit_banner_4.png");
+}
+
+
+.credit-text1, .credit-text2, .credit-text3 {
+    line-height: 150px;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.credit-text1 {
+    text-align: left;
+    margin-left: 75px;
+    color: #ffffff;
+}
+
+.credit-text2 {
+    text-align: right;
+    margin-right: 75px;
+    color: #000000;
+}
+
+.credit-text3 {
+    text-align: left;
+    margin-left: 75px;
+    color: #000000;
+}
+
+.credit-text4 {
+    text-align: right;
+    margin-right: 100px;
+    padding-top: 60px;
+}
+
+.button{
+    background-color: #29E226;
+    border: 1px solid #28D625;
+    padding-left: 20px;
+    padding-right: 20px;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition:none;
+}
+@keyframes animation {
+    0%   {background-color: #29E226;}
+    50%  {background-color: #48f046;}
+    100% {background-color: #29E226;}
+}
+.button:hover{
+    border: 1px solid #000000;
+    background:#000000;
+    color:#ffffff;
+    animation:none;
+}

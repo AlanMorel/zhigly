@@ -1,0 +1,81 @@
+﻿.container {
+    width: 500px;
+    padding: 0;
+    padding-bottom: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.g-recaptcha {
+    margin-left: 134px;
+}
+
+label {
+    width: 25%;
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+.button {
+    width: 220px;
+    margin-left: 215px;
+    margin-bottom: 15px;
+}
+
+input[type=text], input[type="password"] {
+    width: 295px;
+}
+
+.error-label {
+    margin-bottom: 30px;
+}
+
+.email {
+    width: 118px;
+}
+
+select {
+    vertical-align: top;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 133px;
+}
+
+.type label {
+    font-size: 16px;
+    float: none;
+}
+
+.type {
+    padding-top: 0;
+}
+
+.optional {
+    font-size: 12px;
+    vertical-align: top;
+    margin-right: 8px;
+}
+.header {
+    background-image: url("../Images/Secondary/registration_background.png");
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    margin-bottom: 20px;
+    background-position: center center;
+}
+
+.title {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}

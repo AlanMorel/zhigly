@@ -1,0 +1,28 @@
+﻿.container {
+    width: 500px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+div {
+    text-align: center;
+}
+
+.button {
+    width: 160px;
+    margin: 24px;
+    display: inline-block;
+}
+
+.thank-you {
+    font-weight: bold;
+    margin-bottom: 28px;
+    margin-top: 12px;
+}

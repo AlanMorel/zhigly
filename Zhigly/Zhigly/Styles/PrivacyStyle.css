@@ -1,0 +1,23 @@
+﻿.container {
+    background-color: #ffffff;
+    padding: 0 16px 4px 16px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 27px;
+}
+
+p {
+    line-height: 170%;
+    letter-spacing: 0.25px;
+    margin-top: 2px;
+}
+
+.title{
+    font-weight:bold;
+    margin-bottom:4px;
+}

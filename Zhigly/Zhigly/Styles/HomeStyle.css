@@ -1,0 +1,400 @@
+﻿body {
+    background-color: #eeeeee;
+}
+
+.homepagelogo {
+    background-image: url("../Images/Logo/big_logo_white.png");
+    background-repeat: no-repeat;
+    height: 244px;
+    background-position: center;
+    margin-top: 200px;
+}
+
+.homepage {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    filter: brightness(10%);
+    -webkit-filter: brightness(0.75);
+    filter: brightness(0.75);
+    background-image: url("/Images/SchoolHomepage/nyu.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homepage-image {
+    width: 100%;
+}
+
+.homepagelogo-red {
+    background-image: url("../Images/Logo/red_logo.png");
+    background-repeat: no-repeat;
+    height: 244px;
+    background-position: center;
+    margin-top: 75px;
+}
+
+.homepage-logo2 {
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.description, .description2 {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description {
+    background-color: #c60b1e;
+}
+
+.description2 {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 30px;
+}
+
+.prompt {
+    margin: 40px;
+}
+
+.video {
+    height: 600px;
+    overflow: hidden;
+}
+
+.schools {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.school-container {
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.school-logo-container {
+    max-width: 200px;
+    float: left;
+}
+
+.school-content {
+    display: inline-block;
+    width: 80%;
+    padding-left: 15px;
+}
+
+.school-logo {
+    max-width: 125px;
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+    .school-logo:hover {
+        -webkit-filter: brightness(1.25);
+        filter: brightness(1.25);
+        cursor: pointer;
+    }
+
+.school-description {
+    font-size: 13px;
+}
+
+.school-title {
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+
+.prompt {
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.columns-container {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.column-container, .column-container2 {
+    width: 450px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    background-color: #ffffff;
+    min-height: 440px;
+    margin-right: 20px;
+    border-radius: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #dddddd;
+    margin-top: 45px;
+    margin-left: 20px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+    .column-container a {
+        color: #000000;
+    }
+
+.column-container2 {
+    width: 948px;
+    min-height: 15px;
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.column-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Raleway;
+    letter-spacing: 2px;
+    padding-bottom: 2px;
+    padding-top: 14px;
+    text-align: center;
+}
+
+.column-item {
+    font-size: 16px;
+    text-align: left;
+    max-height: 30px;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 4px 8px 4px 8px;
+    margin: 10px 8px 10px 8px;
+}
+
+    .column-item:hover {
+        border-radius: 4px;
+        background-color: #f3f3f3;
+    }
+
+.date {
+    font-size: 12px;
+    padding-right: 6px;
+    vertical-align: middle;
+    color: #777777;
+    display: inline-block;
+    width: 40px;
+}
+
+.home-section {
+    color: #ffffff;
+    font-size: 32px;
+    height: 200px;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-section1 {
+    background-color: #009cde;
+}
+
+.home-section2 {
+    background-color: #33b14c;
+}
+
+.home-section3 {
+    background-color: #7d3dbf;
+}
+
+.home-section4 {
+    background-color: #f39c12;
+}
+
+
+.section-image1 {
+    background: #97E0FF url("../Images/Home/home_section_image_1.png") center no-repeat;
+}
+
+.section-image2 {
+    background: #97ffab url("../Images/Home/home_section_image_2.png") center no-repeat;
+    background-position: center bottom;
+}
+
+.section-image3 {
+    background: #cb97ff url("../Images/Home/home_section_image_3.png") center no-repeat;
+    background-position: center bottom;
+}
+
+.section-image4 {
+    background: #f8b64c url("../Images/Home/home_section_image_4.png") center no-repeat;
+    background-position: center bottom;
+}
+
+.section-image {
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 60%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animation {
+    0% {
+        background-position-y: 20px;
+    }
+
+    50% {
+        background-position-y: 25px;
+    }
+
+    100% {
+        background-position-y: 20px;
+    }
+}
+
+.section-text {
+    vertical-align: middle;
+    line-height: 200px;
+    text-align: center;
+    width: 40%;
+    font-weight: lighter;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background: url("../Images/Home/left_border.png") center no-repeat;
+    background-position: center left;
+}
+
+.section-text1 {
+    background: url("../Images/Home/left_border.png") left no-repeat, url("../Images/Home/divider_1.png") right no-repeat;
+}
+
+.section-text2 {
+    background: url("../Images/Home/left_border.png") left no-repeat, url("../Images/Home/divider_2.png") right no-repeat;
+}
+
+.section-text3 {
+    background: url("../Images/Home/left_border.png") left no-repeat, url("../Images/Home/divider_3.png") right no-repeat;
+}
+
+.section-text4 {
+    background: url("../Images/Home/left_border.png") left no-repeat, url("../Images/Home/divider_4.png") right no-repeat;
+}
+
+.button-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.button {
+    background: #F39C12;
+    color: #000000;
+    border: 1px solid #D3922A;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    .button:hover {
+        background: #000000;
+        cursor: pointer;
+        color: #FFFFFF;
+        border: 1px solid black;
+    }
+
+.register-text {
+    color: #000000;
+    font-size: 16px;
+    margin-top: 24px;
+    letter-spacing: 2px;
+}
+
+.filters a {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: none;
+    padding: 4px 12px 4px 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+    .filters a:hover {
+        background: rgba(0, 0, 0, .25);
+    }
+
+.school-name {
+    padding-bottom: 18px;
+}
+
+.stateOne {
+    background-position-y: 0;
+}
+
+.stateTwo {
+    background-position-y: 4px;
+}
+
+.featured-listing {
+    width: 516px;
+    float: right;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 15px;
+}
+
+.featured-image {
+    max-width: 400px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.featured-listing-title {
+    padding-top: 6px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+
+.featured-listing-title, a {
+    color: #000000;
+}
+
+.featured-description {
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.featured-listing-data {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+}
+
+.featured-image-container {
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}

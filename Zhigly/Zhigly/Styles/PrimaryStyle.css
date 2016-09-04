@@ -1,0 +1,243 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin: 0;
+    min-width: 1000px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eeeeee;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner {
+    width: 100%;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25), 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    width: 800px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+    background-color:#ffffff;
+    border-radius:8px;
+    border: 1px solid #dddddd;
+}
+
+.header {
+    height: 75px;
+    background-color: #c60b1e;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+
+::selection {
+    background: #DDDDDD;
+    color: #000000;
+}
+
+.logo {
+    float: left;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+.menuTop {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: auto;
+    text-align: right;
+    padding-top: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-right: 50px;
+}
+
+.menuBottom {
+    text-align: right;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-right: 40px;
+    padding-top: 8px;
+}
+
+    .menuTop a, .menuBottom a {
+        color: #ffffff;
+    }
+
+    .menuBottom a {
+        padding: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 4px;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+    }
+
+        .menuBottom a:hover {
+            color: #ffffff;
+            background: rgba(0, 0, 0, .25);
+        }
+
+input[type="text"], textarea {
+    box-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+    input[type="text"]:focus, textarea:focus {
+        border-color: #db3030;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(219, 48, 48, 0.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(219, 48, 48, 0.6);
+    }
+
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 75px;
+    background-color: #292929;
+    color: #fff;
+    padding-top: 30px;
+}
+
+    footer span {
+        font-size: 12px;
+    }
+
+    footer a {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        margin-left: 20px;
+        color: #ffffff;
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 6px;
+    }
+
+        footer a:hover {
+            border-radius: 4px;
+            background-color: rgba(255,255,255,0.1);
+            color: #ffffff;
+        }
+
+.footerhr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #eee, #bbb, #eee);
+    margin: auto;
+    margin-bottom: 25px;
+    width: 800px;
+    text-align: center;
+}
+
+.button {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000000;
+    background: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border-radius: 4px;
+    font-weight: lighter;
+}
+
+    .button:hover {
+        background: #000000;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+
+.error-label {
+    color: #db3030;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.error-div {
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    margin: auto;
+}
+
+.footer-column {
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+}
+
+.made-in-ny {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0;
+}
+
+    .made-in-ny img {
+        width: 128px;
+        height: 128px;
+        opacity: 0.5;
+    }
+
+        .made-in-ny img:hover {
+            opacity: 1;
+        }
+
+    .made-in-ny:hover {
+        background-color: #292929;
+    }
+
+.sub-footer {
+    background-color: rgba(0,0,0,0.25);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+span.sub-footer-text {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-title {
+    padding-right: 15px;
+    margin-left: 30px;
+    margin-right: 15px;
+    font-size: 18px;
+}
