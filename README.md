@@ -1,12 +1,9 @@
 ![alt tag](http://i.imgur.com/VtRhu0z.png)
 
-**Zhigly** is a hub where you can connect with your college campus.
-
-**Zhigly** allows you to look for items you'd like to buy or sell, browse upcoming on-campus events, search for jobs/internships/opportunities, look for housing, and much more.
-
-**Zhigly** was written in C# using the ASP.NET framework provided by Microsoft.
+**Zhigly** is a hub where you can connect with your college campus. It allows you to look for items you'd like to buy or sell, browse upcoming on-campus events, search for jobs/internships/opportunities, look for housing, and much more.
 
 ## Requirements
+
  * Visual Studio 2010 Express or above.
  * SQL database management software of your choosing.
 
@@ -19,6 +16,7 @@
  * Configuration for Google Analytics can be found inside the JS/GoogleAnalytics.js file. 
  
 ## Note
+
 **Zhigly** will still run without any additional configuration, however you will be losing out on the added functionality that these third-party services provide. 
  
 ## Technologies Used
