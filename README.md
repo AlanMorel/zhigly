@@ -3,11 +3,16 @@
 
 **Zhigly** - Listings for College Communities
 
+## Requirements
+ * Visual Studio 2010 Express or above.
+ * SQL database management software of your choosing
+
 ## Installation
 
  * Download the code and open with Visual Studio 2010 Express or above.
- * NuGet packages are included. If you have any problem please follow [these instructions](http://stackoverflow.com/questions/6876732/how-do-i-get-nuget-to-install-update-all-the-packages-in-the-packages-config)
-
+ * NuGet packages are included. If you have any problem please follow [these instructions.](http://stackoverflow.com/questions/6876732/how-do-i-get-nuget-to-install-update-all-the-packages-in-the-packages-config)
+ * Import the schema information via the database.sql file inside the SQL folder.
+ 
 ## Technologies Used
 
 * [Facebook SDK](https://developers.facebook.com/docs/javascript) - using Facebook plugins
