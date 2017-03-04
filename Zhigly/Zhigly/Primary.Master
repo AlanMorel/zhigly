@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div class="sub-footer">
-                <span class="sub-footer-text">Copyright © 2015 - 2016 Zhigly. All rights reserved.</span>
+                <span class="sub-footer-text">Copyright © 2015 - <span runat="server" id="Year"></span> Zhigly. All rights reserved.</span>
             </div>
         </footer>
     </form>

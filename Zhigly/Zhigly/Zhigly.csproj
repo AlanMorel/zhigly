@@ -102,6 +102,7 @@
     <Content Include="Images\Contact\contact_plus.png" />
     <Content Include="Images\Contact\contact_twitter.png" />
     <Content Include="Images\error.png" />
+    <Content Include="Images\Home\homepage_background.png" />
     <Content Include="Images\Logo\big_logo_white.png" />
     <Content Include="Images\Credits\blackspy64.png" />
     <Content Include="Images\Logo\black_logo.png" />

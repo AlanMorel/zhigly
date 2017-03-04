@@ -8,7 +8,7 @@
 <asp:Content ContentPlaceHolderID="body" runat="server">
     <div id="LoggedOut" runat="server">
         <div class="video">
-            <video id="bg" src="http://zhigly.com.kelp.arvixe.com/Video/video.webm" autoplay loop muted></video>
+            <video id="bg" src="http://webm.land/media/W46Y.webm" autoplay loop muted></video>
         </div>
         <div class="homepage-logo2">
             <div class="homepagelogo"></div>

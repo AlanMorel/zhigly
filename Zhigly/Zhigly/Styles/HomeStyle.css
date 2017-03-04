@@ -73,6 +73,9 @@
 .video {
     height: 600px;
     overflow: hidden;
+    background-color: black;
+    background: url("/Images/Home/homepage_background.png") no-repeat center center fixed;
+    background-size: cover;
 }
 
 .schools {

@@ -41,6 +41,7 @@ namespace Zhigly
             FacebookLikes.InnerHtml = "(" + Facebook.Likes + " likes)";
             TwitterFollowers.InnerHtml = "(" + Twitter.Followers + " followers)";
             PlusFollowers.InnerHtml = "(" + Plus.Followers + " followers)";
+            Year.InnerHtml = DateTime.Now.Year.ToString();
         }
 
         private string GetName()

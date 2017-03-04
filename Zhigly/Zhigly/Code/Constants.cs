@@ -3,8 +3,9 @@
     public class Constants
     {
         public const string Localhost = "Localhost";
+        public const string GearHost = "GearHost";
 
-        public const string Database = Localhost;
+        public const string Database = GearHost;
 
         public const int ImagesPerListing = 5;
 
