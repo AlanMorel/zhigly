@@ -30,12 +30,9 @@
 * [Google Analytics](https://www.google.com/analytics/) - various website analytics tools
 * [Google Fonts](https://fonts.google.com/) - source of all the fonts
 
-## Live Demo at Zhigly.com
+## Live Demo
 
 **Zhigly** is live via hosting provided by GearHost. [Click here](http://zhigly.com/) to view.
-
-## Author
-* [Alan Morel](http://alanmorel.com/)
 
 ## License
 
