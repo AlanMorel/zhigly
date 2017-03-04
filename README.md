@@ -10,7 +10,7 @@
 ## Installation
 
  * Download the code and open with Visual Studio 2010 Express or above.
- * NuGet packages are included. If you have any problem please follow [these instructions](http://stackoverflow.com/questions/6876732/how-do-i-get-nuget-to-install-update-all-the-packages-in-the-packages-config).
+ * NuGet packages are included. If you have any issues, please follow [these instructions](http://stackoverflow.com/questions/6876732/how-do-i-get-nuget-to-install-update-all-the-packages-in-the-packages-config).
  * Import the schema information via the database.sql file inside the SQL folder.
  * Configure the API files found inside the API folder. This includes Facebook, Twitter, Google+, Imgur, Recaptcha and Zoho.
  * Configuration for Google Analytics can be found inside the JS/GoogleAnalytics.js file. 
@@ -19,8 +19,8 @@
 
 **Zhigly** will still run without any additional configuration, however you will be losing out on the added functionality that these third-party services provide. 
  
-## Technologies Used
-
+## Technologies
+* [ASP.NET](https://www.asp.net/) - open source web framework
 * [Facebook SDK](https://developers.facebook.com/docs/javascript) - using Facebook plugins
 * [Twitter SDK](https://dev.twitter.com/web/javascript) - using Twitter plugins
 * [Google+ API](https://developers.google.com/+/web/api/rest/) - using various Google+ data
