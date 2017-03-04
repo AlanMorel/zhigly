@@ -3,12 +3,10 @@
 **Zhigly** is a hub where you can connect with your college campus. It allows you to look for items you'd like to buy or sell, browse upcoming on-campus events, search for jobs/internships/opportunities, look for housing, and much more.
 
 ## Requirements
-
  * Visual Studio 2010 Express or above.
  * SQL database management software of your choosing.
 
 ## Installation
-
  * Download the code and open with Visual Studio 2010 Express or above.
  * NuGet packages are included. If you have any issues, please follow [these instructions](http://stackoverflow.com/questions/6876732/how-do-i-get-nuget-to-install-update-all-the-packages-in-the-packages-config).
  * Import the schema information via the database.sql file inside the SQL folder.
@@ -16,7 +14,6 @@
  * Configuration for Google Analytics can be found inside the JS/GoogleAnalytics.js file. 
  
 ## Note
-
 **Zhigly** will still run without any additional configuration, however you will be losing out on the added functionality that these third-party services provide. 
  
 ## Technologies
@@ -31,9 +28,12 @@
 * [Google Fonts](https://fonts.google.com/) - source of all the fonts
 
 ## Live Demo
-
 **Zhigly** is live via hosting provided by GearHost. [Click here](http://zhigly.com/) to view.
 
-## License
+## Screenshots
+![alt tag](http://i.imgur.com/L2KJCob.jpg)
+![alt tag](http://i.imgur.com/d9XQ4vU.png)
+![alt tag](http://i.imgur.com/VWS4hjl.png)
 
+## License
 **Zhigly** is licensed under the [MIT license](LICENSE).
