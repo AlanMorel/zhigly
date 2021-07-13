@@ -27,9 +27,6 @@
 * [Google Analytics](https://www.google.com/analytics/) - various website analytics tools
 * [Google Fonts](https://fonts.google.com/) - source of all the fonts
 
-## Live Demo
-**Zhigly** is live via hosting provided by GearHost. [Click here](https://zhigly.gear.host/) to view.
-
 ## Screenshots
 ![alt tag](https://i.imgur.com/L2KJCob.jpg)
 ![alt tag](https://i.imgur.com/d9XQ4vU.png)
